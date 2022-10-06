@@ -1,0 +1,30 @@
+package CuerposGeometricos;
+
+public class Dodecaedro {
+public  static  void  main ( String [] args ) {
+		
+		Área doble  , Área pentagonal , aristas , caras , vértices , apotema , Volumen ;
+		
+		caras = 12 ;
+		vértices = 20 ;
+		apotema = 1 ;
+		
+		aristas = caras + vértices ;
+		Area =( 3 * Math . pow ( aristas , 2 ))* Math . sqrt ( 25 + 10 * Math . sqrt ( 5 ));
+		Areapentagonal = 5 *( aristas * apotema );
+		Volumen = 1 *( 15 +( 7 * Math . sqrt ( 5 )))* Math . pow ( aristas , 3 )/ 4 ;
+		
+		System.out.printIn("El Dodecaedro tiene " + caras + " caras");
+		syso  ( "El Dodecaedro tiene" + vértices + "Vértices" );
+		sistema _ fuera _ println ( "El Dodecaedro tiene " + ( aristas - 2 )+ " Aristas" );
+		sistema _ fuera _ println ( "EL Apotema del Dodecaedro es de: " + String . format ( "%.2f" , apotema ));
+		sistema _ fuera _ println ( "El Area del Dodecaedro es de: " + String . format ( "%.2f" , Area ));
+		sistema _ fuera _ println ( "El Area Pentagonal del Dodecaedro es de: " + String . format ( "%.2f" , Areapentagonal ));
+		sistema _ fuera _ println ( "El Volumen del Dodecaedro es de: " + String . format ( "%.2f" , Volumen ));
+	}
+
+}
+}
+
+
+
